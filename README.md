@@ -1,4 +1,4 @@
-# lead_manager_react_django
+# Lead Manager App using React&Django
 
 Simple react/django app for the lead management
 
@@ -6,3 +6,4 @@ Simple react/django app for the lead management
 + django
 + django-rest-framework
 + react
++ redux
