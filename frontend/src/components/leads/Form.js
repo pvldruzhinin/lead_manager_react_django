@@ -10,7 +10,7 @@ export class Form extends Component {
         message: ''
     };
 
-    static PropTypes = {
+    static propTypes = {
         addLead: PropTypes.func.isRequired
     };
 
@@ -22,7 +22,12 @@ export class Form extends Component {
         e.preventDefault();
         const {name, email, message} = this.state;
         const lead = {name, email, message};
-        this.props.addLead(lead)
+        this.props.addLead(lead);
+        this.setState({
+            name: '',
+            email: '',
+            message: ''
+        })
     };
 
     render() {
