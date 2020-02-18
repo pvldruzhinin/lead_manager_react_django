@@ -1,6 +1,6 @@
 # Lead Manager App using React&Django
 
-Simple react/django app for the lead management
+Simple react/django app for the lead management with authentication
 
 + python3
 + django
